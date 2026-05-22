@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans KR", "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #fbf9f8;
+  color: #1b1c1c;
+}
+
+@keyframes infiniteZoom {
+  0% {
+    transform: scale(1.02);
+  }
+  50% {
+    transform: scale(1.35);
+  }
+  100% {
+    transform: scale(1.02);
+  }
+}
+
+.animate-infiniteZoom {
+  animation: infiniteZoom 20s ease-in-out infinite;
+}
+
+/* Hide scrollbars for webkit while keeping scroll functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

@@ -1,0 +1,6 @@
+{
+  "name": "화성시육아종합지원센터",
+  "description": "화성시 부모님과 아이들을 위한 맞춤형 육아 서비스를 제공하는 공공 포털 사이트입니다. 시간제보육, 장난감대여, 놀이체험실, 상담신청, 부모교육 등 유용한 정보를 제공하고 온라인 예약을 지원합니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
